@@ -55,10 +55,10 @@ body{
 	color: white;
 }
 
-.header h1{
-	
-    color: black;
-    text-align: center;
+.header img{
+	width: 70px;
+    padding-top: -7px;
+    padding-right: 25px;
     
 }
 
