@@ -1,6 +1,7 @@
 body, ul, li, h1, a{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: monospace;
 
 }
@@ -93,8 +94,10 @@ article p{
 }
 
 .images{
+    width: 100%;
     text-align: center;
     margin: 80px 0;
+    padding: 60px;
     white-space: nowrap;
 }
 
@@ -133,6 +136,9 @@ footer{
     padding: 10px;
     text-align: center;
 }
+
+
+
 
 
 @media screen and(max-width: 1400px){
