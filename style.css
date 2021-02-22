@@ -16,6 +16,12 @@ header{
     left: 0;
 }
 
+header i{
+    float:left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+
 header h1{
     color: white;
     border: 8px solid white;
@@ -23,6 +29,7 @@ header h1{
     display: inline-block;
     border-radius: 36px;
 }
+
 .banner{
     position: relative;
 }
@@ -89,14 +96,19 @@ main{
 
 
 .images li a{
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 25px;
-    color: blue;
     text-transform: uppercase;
     text-align: center;
+    color: #000;
 
 }
 
+.images li a:hover{
+    
+    color: grey;
+
+}
 
 
 
@@ -105,10 +117,12 @@ main{
     font-size: 48px;
 }
 
-article p{
+.article p{
     line-height: 2em;
     color: #4b4b4b;
+    display: inline-block;
 }
+
 
 .images{
     display: block;
