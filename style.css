@@ -3,7 +3,9 @@ body, ul, li, h1, a{
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
-
+    
+/*=================Universal styling for all pages=========================*/
+/*=================Header section=========================*/
 }
 header{
     background-color: #fb3232;
@@ -30,6 +32,9 @@ header h1{
     border-radius: 36px;
 }
 
+
+/*=================Banner=========================*/
+
 .banner{
     position: relative;
 }
@@ -53,6 +58,9 @@ header h1{
 .banner h2 span{
     font-size: 1.3em;
 }
+
+
+/*=================Navigation=========================*/
 
 nav{
     background-color: #f4f4f4;
@@ -85,6 +93,8 @@ nav li a.join{
     color: #f63232;
 }
 
+/*=================Main=========================*/
+
 main{
     max-width: 100%;
     width: 1200px;
@@ -104,11 +114,6 @@ main{
 
 }
 
-.images li a:hover{
-    
-    color: grey;
-
-}
 
 
 
@@ -175,12 +180,16 @@ footer{
     text-align: center;
 }
 
-
-
-
+/*=================Psuedo elements=========================*/
 
 nav li a:hover{
     text-decoration: underline;
+}
+
+.images li a:hover{
+    
+    color: grey;
+
 }
 
 
@@ -194,6 +203,7 @@ form input:valid{
 }
 
 
+/*=================Responsive Lay-Out=========================*/
 
 @media screen and (min-width: 1000px){
     
