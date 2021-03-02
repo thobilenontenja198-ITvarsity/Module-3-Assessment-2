@@ -249,6 +249,12 @@ form input:valid{
             padding: 2px;
             position: sticky;
             top: 90px;
+        
+        }
+    
+        nav li{
+            display: block;
+        
         }
     
     
@@ -276,6 +282,11 @@ form input:valid{
             padding: 20px;
             position: sticky;
             top: 90px;
+        }
+    
+          nav li{
+            display: inline-block;
+        
         }
     
         form input{
