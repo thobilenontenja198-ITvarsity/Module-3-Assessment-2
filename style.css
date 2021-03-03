@@ -222,6 +222,7 @@ form input:valid{
 
 /*=================Responsive Lay-Out=========================*/
 
+
 @media screen and (min-width: 350px){
     
 
@@ -257,6 +258,11 @@ form input:valid{
         
         }
     
+        .images li{
+            display: block;
+        
+        }
+    
     
         form input{
                 width: 50%;
@@ -266,6 +272,14 @@ form input:valid{
 
 
 @media screen and (min-width: 600px){
+    
+        
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
     
         .banner .welcome h2{
             font-size: 25px;
@@ -297,6 +311,15 @@ form input:valid{
 
 @media screen and (min-width: 1000px){
     
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+    
+        
+    
         .banner .welcome h2{
             font-size: 35px;
             padding: 10px ;
@@ -321,6 +344,41 @@ form input:valid{
 
 }
 
+
+
+@media screen and (min-width: 1500px){
+    
+        
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+    
+        .banner .welcome h2{
+            font-size: 25px;
+            padding: 10px ;
+            text-transform: uppercase;
+        }
+
+        .banner img{
+            overflow: auto;
+        }
+
+        nav{
+            background-color: #f4f4f4;
+            padding: 30px;
+            position: sticky;
+            top: 90px;
+        }
+    
+    
+         form input{
+                width: 50%;
+        }
+
+}
 
 
 
